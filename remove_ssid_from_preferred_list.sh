@@ -1,4 +1,4 @@
-#!/bin/bash
+ve#!/bin/bash
 
 # ==============================================================================
 # set_wifi_priority.sh
@@ -31,7 +31,7 @@ DISABLE_AUTOJOIN_SSID_2="SSID-NUMBER-TWO-GOES-HERE"
 # The networksetup command requires administrator access to modify settings.
 if [[ $EUID -ne 0 ]]; then
    echo "Error: This script must be run as root."
-   echo "Please run with sudo: sudo ./set_wifi_priority.sh"
+   echo "Please run with sudo: sudo ./remove_ssid_from_preferred_list.sh"
    exit 1
 fi
 
