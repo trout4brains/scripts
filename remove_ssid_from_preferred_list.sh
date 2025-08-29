@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # ==============================================================================
-# set_wifi_priority.sh
+# remove_ssid_from_preferred_list.sh
 #
 # Description:
 #   A bash script for macOS to disable auto-join for two specified Wi-Fi
@@ -10,8 +10,8 @@
 #
 # Usage:
 #   1. Edit the CONFIGURATION variables below to match your needs.
-#   2. Make the script executable: chmod +x set_wifi_priority.sh
-#   3. Run the script with sudo: sudo ./set_wifi_priority.sh
+#   2. Make the script executable: chmod +x remove_ssid_from_preferred_list.sh
+#   3. Run the script with sudo: sudo ./remove_ssid_from_preferred_list.sh
 #
 # ==============================================================================
 
